@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="test.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body class="body">
+    <ul id="one">
+        <h2>DJs</h2>
+        <li>service name = songs </li>
+        <li>price = 15000</li>
+        <li>rating = 3.5</li>
+        <li>availability = 4 days</li>
+        <button id="mybutton" onclick="booking1()">show details</button><br>
+        <button>book now</button>
+        <div id="message">
+            <h1 id="details1"></h1>
+        </div>
+    </ul>
+    <ul id="two">
+        <h2>Photographers</h2>
+        <li>service name = photos and videos</li>
+        <li>price = 20000</li>
+        <li>rating = 4.5</li>
+        <li>availability 2 days</li>
+        <button id="mybutton" onclick="booking2()">show details</button><br>
+        <button>book now</button>
+        <div id="message">
+            <h1 id="details2"></h1>
+        </div>
+    </ul>
+    <ul id="three">
+        <h2>Caterars</h2>
+        <li>service name = catering foods</li>
+        <li>price = 50000</li>
+        <li>rating = 4</li>
+        <li>availability = 7 days</li>
+        <button id="mybutton" onclick="booking3()">show details</button><br>
+        <button>book now</button>
+        <div id="message">
+            <h1 id="details3"></h1>
+        </div>
+    </ul>
+</body>
+<script>
+    function booking1(){
+    alert(
+        'the dj is good reviews and they are 4 days availability and price is 15000 only... for your booking kindly book the booking button'
+         
+    )
+    } 
+    function booking2(){
+    alert(
+        'the photography  is good reviews and they are only 2 days availability and price is 20000 only...for your booking kindly book the booking button '
+         
+    )
+    } 
+    function booking3(){
+    alert(
+        'the catering is very good reviews  and tastes... they are 7 days availability and price is 50000 only... for your booking kindly book the booking button '
+         
+    )
+    } 
+</script>
+</html>
