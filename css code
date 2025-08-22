@@ -1,0 +1,28 @@
+.body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+#one{
+    outline: auto;
+    box-sizing: 2px;
+    box-shadow: 10px;
+    background-color: darksalmon;
+}
+#two{
+    outline: auto;
+    box-sizing: 2px;
+    box-shadow: 10px;
+    background-color: blueviolet;
+}
+#three{
+    outline: auto;
+    box-sizing: 2px;
+    background-color: aqua;
+}
+@media (max-width:900px){
+    .body{
+        flex-direction: column;
+        
+    }
+}
